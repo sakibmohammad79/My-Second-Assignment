@@ -196,6 +196,11 @@ nav{
 .feedback{
     background-color: white;
     padding: 20px;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.feedback:hover{
+    box-shadow: 10px 10px 10px #FF900E;
 }
 .number{
     font-weight: 600;
@@ -231,3 +236,18 @@ nav{
     justify-content: space-around;
 }
 /* sponsor style end */
+
+/* footer section start */
+.footer{
+    text-align: center;
+    background-color: ghostwhite;
+    padding: 30px 100px 100px 100px;
+}
+.footer-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    background: #FFF4E7;
+    padding: 40px;
+}
+/* footer section end */
