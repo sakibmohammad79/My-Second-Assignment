@@ -74,3 +74,40 @@ nav{
     padding-top: 25px;
 }
 /* Heaer style end */
+
+/* discation section style start */
+.discation{
+    padding: 50px 150px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.discation-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.discation-title{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+.color-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.discation-sub-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.discation-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 15px 0px;
+}
+
+/* discation section style end */
