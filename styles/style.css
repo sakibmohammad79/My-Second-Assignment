@@ -174,7 +174,7 @@ nav{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 15px;
 
 }
@@ -191,7 +191,7 @@ nav{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .feedback{
     background-color: white;
@@ -208,3 +208,26 @@ nav{
     color: #727272;
 }
 /* fact rating div style end */
+
+/* sponsor style start */
+.sponsor{
+    background-color: ghostwhite;
+    padding: 50px 100px;
+    text-align: center;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding:10px 300px 40px 300px;
+}
+.sponsor-brand{
+    display: flex;
+    justify-content: space-around;
+}
+/* sponsor style end */
