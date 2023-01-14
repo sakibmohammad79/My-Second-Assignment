@@ -237,11 +237,39 @@ nav{
 }
 /* sponsor style end */
 
+/* extra section start */
+.card-section {
+    display: flex;
+    gap: 10px;
+    padding: 30px 100px;
+    background-color: ghostwhite;
+  }
+  
+  .card {
+    flex: 1; 
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .card:hover{
+    box-shadow: 8px 8px 8px #FF900E;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  .card-title{
+    padding: 10px 0px;
+  }
+  
+/* extra section and */
 /* footer section start */
 .footer{
     text-align: center;
     background-color: ghostwhite;
-    padding: 30px 100px 100px 100px;
+    padding: 80px 100px 100px 100px;
 }
 .footer-title{
     font-weight: 400;
