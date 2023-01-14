@@ -81,6 +81,7 @@ nav{
     display: flex;
     gap: 40px;
     align-items: center;
+    background-color: ghostwhite;
 }
 .discation-img{
     display: grid;
@@ -109,5 +110,101 @@ nav{
     color: #727272;
     padding: 15px 0px;
 }
-
 /* discation section style end */
+
+/* feature section style start */
+.feature-section{
+    display: flex;
+    padding: 50px 150px;
+    gap: 50px;
+    background-color:ghostwhite;
+}
+.feature-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding: 20px;
+}
+.feature-title-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.feature{
+    margin: 10px 0;
+    background-color: white;
+    padding: 10px;
+}
+.feature-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+.feature-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.feature-button{
+        color: #FFFFFF;
+        width: 220px;
+        height: 120px;
+        background: #FF900E;
+        border-radius: 8px;
+        border: none;
+        font-weight: 700;
+        font-size: 50px;
+        padding: 20px;
+}
+.btn-text{
+    font-size: 20px;
+}
+.button{
+    padding-bottom: 20px;
+}
+/* feature section style end */
+
+/* fact section style start */
+.fact{
+    padding: 0px 150px;
+    background-color:ghostwhite;
+}
+.fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-top: 50px;
+    padding-bottom: 15px;
+
+}
+.fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 80px;
+}
+/* fact section style end */
+
+/* fact rating div style start */
+.rating{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.feedback{
+    background-color: white;
+    padding: 20px;
+}
+.number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.rating-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* fact rating div style end */
