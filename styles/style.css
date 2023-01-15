@@ -178,8 +178,8 @@ nav{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 70px;
+    padding-bottom: 10px;
 
 }
 .fact-description{
@@ -248,25 +248,34 @@ nav{
     padding: 30px 100px;
     background-color: ghostwhite;
   }
-  
-  .card {
+.extra-section{
+   background-color: ghostwhite;
+  }
+.card-heading{
+    text-align: center;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.card {
     flex: 1; 
     text-align: center;
     background-color: white;
     padding: 10px;
     box-shadow: 0px 0px 5px #ccc;
     transition: box-shadow 0.3s ease-in-out;
-  }
-  .card:hover{
+}
+.card:hover{
     box-shadow: 8px 8px 8px #FF900E;
-  }
+}
   
-  .card img {
+.card img {
     width: 100%;
-  }
-  .card-title{
-    padding: 10px 0px;
-  }
+}
+.card-title{
+  padding: 10px 0px;
+ }
 /* extra section and */
 /* footer section start */
 .footer{
@@ -329,6 +338,9 @@ nav{
     }
     .feature-button{
         margin-left: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 20px 0;
     }
     /* feature */
     /* fact */
