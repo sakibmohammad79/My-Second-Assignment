@@ -40,11 +40,13 @@ nav{
 .nav-element{
     padding-top: 15px;
 }
-.nav-element a{
-    padding-left: 35px;
+.nav-element ul{
     text-decoration: none;
+    list-style: none;
+    display: flex;
 }
 .nav-link{
+    padding-left: 35px;
     font-weight: 600;
     font-size: 18px;
     color: #424242;
@@ -306,8 +308,12 @@ nav{
     .nav-title{
         padding: 20px 0;
     }
-    .nav-element a{
-        padding-left: 10px;
+    .nav-element ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-link{
+        padding-left: 0;
     }
     /* header */
     header{
