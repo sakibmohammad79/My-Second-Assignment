@@ -239,6 +239,10 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+.sponsor-brand-img{ 
+    filter: invert(70%);
+    -webkit-filter: invert(70%);;
+}
 /* sponsor style end */
 
 /* extra section start */
